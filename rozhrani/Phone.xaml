@@ -1,0 +1,28 @@
+﻿<Window x:Class="rozhrani.Phone"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rozhrani"
+        mc:Ignorable="d"
+        Title="Telefonování" Height="450" Width="911" ResizeMode="NoResize">
+    <Grid>
+        <Rectangle Fill="#FF252525" HorizontalAlignment="Left" Height="419" Stroke="Black" VerticalAlignment="Top" Width="903"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label FontSize="20" Content="Ty: Ahoj, jsem v soutěži milionář a nevím si rady s otázkou..." Name="mess1" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF40BB4B" ></Label>
+            <Label FontSize="20" Content="Karel: No dobře, tak povídej" Name="mess2" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFC71616" ></Label>
+            <Label FontSize="20" Content="Text3" Name="mess3" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF37BB4B" ></Label>
+            <Label FontSize="20" Content="Text35" Name="mess35" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF37BB4B" ></Label>
+            <Label FontSize="20" Content="ter" Name="mess4" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFC71C20" ></Label>
+            <Label FontSize="20" Content="tt" Name="mess5" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFC71C20" ></Label>
+            <Label FontSize="20" Content="ttx" Name="mess6" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF40BB45" ></Label>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Name="ButStack">
+            <Label Content="Komu chcete zavolat?" Foreground="WhiteSmoke" FontSize="23" HorizontalAlignment="Center"></Label>
+            <Button Click="SelectPerson" Name="name1" Content="Name1" Width="350" Margin="20"></Button>
+            <Button Click="SelectPerson" Name="name2" Content="Name2" Width="350"  Margin="20"></Button>
+            <Button Click="SelectPerson" Name="name3" Content="Name3" Width="350"  Margin="20"></Button>
+            <Button Click="SelectPerson" Name="name4" Content="Name4" Width="350"  Margin="20"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
